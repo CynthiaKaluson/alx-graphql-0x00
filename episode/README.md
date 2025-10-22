@@ -1,24 +1,24 @@
 # Episode Queries - Task 2
 
-This directory contains GraphQL queries for fetching specific episode data from the Rick and Morty API using episode IDs.
+This directory contains GraphQL queries for fetching specific episode data from the Rick and Morty API.
 
 ## Files
 
-### GraphQL Query Files
-- `episode-id-1.graphql` - Query for episode with ID 1 (Pilot)
-- `episode-id-2.graphql` - Query for episode with ID 2 (Lawnmower Dog)
-- `episode-id-3.graphql` - Query for episode with ID 3 (Anatomy Park)
-- `episode-id-4.graphql` - Query for episode with ID 4 (M. Night Shaym-Aliens!)
+### Query Files
+- `episode-page-1.graphql` - Query for episode with ID 1
+- `characters-page-2.graphql` - Query for episode with ID 2
+- `characters-page-3.graphql` - Query for episode with ID 3
+- `characters-page-4.graphql` - Query for episode with ID 4
 
 ### Output Files
-- `episode-id-1-output.json` - Expected output for episode ID 1
-- `episode-id-2-output.json` - Expected output for episode ID 2
-- `episode-id-3-output.json` - Expected output for episode ID 3
-- `episode-id-4-output.json` - Expected output for episode ID 4
+- `characters-page-1-output.json` - Output for episode ID 1
+- `characters-page-2-output.json` - Output for episode ID 2
+- `characters-page-3-output.json` - Output for episode ID 3
+- `characters-page-4-output.json` - Output for episode ID 4
 
 ## Query Structure
 
-All queries follow the same structure:
+All queries follow the episode query structure:
 ```graphql
 query GetEpisodeById {
   episode(id: [ID]) {
@@ -41,7 +41,7 @@ API Endpoint
 These queries should be executed against the Rick and Morty GraphQL API:
 https://rickandmortyapi.com/graphql
 
-Expected Episodes
+Episode IDs
 ID 1: Pilot (S01E01)
 
 ID 2: Lawnmower Dog (S01E02)
