@@ -1,0 +1,17 @@
+{
+  "name": "alx-graphql-0x00",
+  "version": "1.0.0",
+  "description": "GraphQL Fundamentals - Basic queries for Rick and Morty API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test the queries against https://rickandmortyapi.com/graphql\""
+  },
+  "keywords": [
+    "graphql",
+    "rick-and-morty",
+    "api",
+    "queries"
+  ],
+  "author": "ALX Student",
+  "license": "MIT"
+}
